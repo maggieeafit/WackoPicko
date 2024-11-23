@@ -1,10 +1,8 @@
-namespace: wackopicko
-working_dir: master
-commit: 6cfdb1719b642afddccb38dec41b95b5a748230c
-language: ES
+namespace: myapp
 output:
-  file_path: ./results.csv
+  file_path: Fluid-Attacks-Results.csv
   format: CSV
+working_dir: .
 file_size_limit: false
 sast:
   include:
