@@ -1,0 +1,18 @@
+namespace: wackopicko
+working_dir: master
+commit: 6cfdb1719b642afddccb38dec41b95b5a748230c
+language: ES
+output:
+  file_path: /path/to/results.csv
+  format: CSV
+file_size_limit: false
+sast:
+  include:
+    - .
+sca:
+  include:
+    - .
+apk:
+  include:
+    - .
+debug: true
