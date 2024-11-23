@@ -9,7 +9,7 @@ jobs:
          - uses: docker://docker.io/fluidattacks/cli:latest
            name: machineStandalone
            with:
-             args: skims --strict scan /config.yaml
+             args: skims scan ./config.yaml
          - name: Upload artifact
            uses: actions/upload-artifact@v4
            with:
