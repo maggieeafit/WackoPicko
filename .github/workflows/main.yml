@@ -15,4 +15,3 @@ jobs:
            with:
              name: Fluid-Attacks-Results
              path: Fluid-Attacks-Results.csv
-  workflow_dispatch:
